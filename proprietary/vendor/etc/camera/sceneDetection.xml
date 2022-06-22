@@ -250,5 +250,6 @@
         <ell_light_margin>2</ell_light_margin>
         <ell_similar_hist_thres>0.85</ell_similar_hist_thres>
         <ell_bright_thres>240</ell_bright_thres>
+        <ell_over_exp_ratio_thres>0.0137</ell_over_exp_ratio_thres>   
   </ell_mode>
 </sceneDetection>

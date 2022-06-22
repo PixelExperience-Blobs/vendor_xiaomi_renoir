@@ -156,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_mag_cal_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal_legacy.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_multishake.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_nonui.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_nonui.json \
+    vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_oem13.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_oem13.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
     vendor/xiaomi/renoir/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
@@ -204,6 +205,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/renoir/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf \
     vendor/xiaomi/renoir/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
+    vendor/xiaomi/renoir/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
@@ -265,12 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav1.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav2.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav3.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav4.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav5.bin \
-    vendor/xiaomi/renoir/proprietary/vendor/firmware/seq_bin_wav6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seq_bin_wav6.bin \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b00 \
     vendor/xiaomi/renoir/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
@@ -331,6 +332,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so \
@@ -494,6 +496,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.derivedoffline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.derivedoffline.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.ellcprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.ellcprocess.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.ellcsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.ellcsupernight.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
@@ -536,6 +540,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/lib_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sr_models.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/libalAILDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalAILDC.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/libalLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalLDC.so \
@@ -663,6 +668,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so \
+    vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.cameraperf@1.0.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so \
     vendor/xiaomi/renoir/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 

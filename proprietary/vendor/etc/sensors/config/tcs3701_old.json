@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "DAVINCI", "Surf", "POLARIS", "PERSEUS", "IDP"],
+    "hw_platform": ["MTP", "DAVINCI", "Surf", "POLARIS", "PERSEUS", "IDPBAK"],
     "soc_id": ["291", "246", "305", "321", "450"]
   },
   "tcs3701":{

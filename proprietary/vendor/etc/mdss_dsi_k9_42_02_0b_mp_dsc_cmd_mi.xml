@@ -232,8 +232,8 @@
            <sreParamName>sreLevel sreIgcLevel0 sreIgcLevel1 sreIgcLevel2 sreExitThreshold sreLevel1Divisor sreLevel2Divisor</sreParamName>
            <sreLevel>5000 10000 50000</sreLevel>
            <sreIgcLevel0>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14</sreIgcLevel0>
-           <sreIgcLevel1>0 15 16 17 18 19 20 21 22 23 24 25 26 27 28</sreIgcLevel1>
-           <sreIgcLevel2>0 29 30 31 32 33 34 35 36 37 38 39 40 41 42</sreIgcLevel2>
+           <sreIgcLevel1>0 15 16 17 18 19 20 21 22 23 25 25 26 25 28</sreIgcLevel1>
+           <sreIgcLevel2>0 29 30 31 32 33 34 35 36 37 39 39 40 39 42</sreIgcLevel2>
            <sreExitThreshold>9500</sreExitThreshold>
            <sreLevel1Divisor>6.0</sreLevel1Divisor>
            <sreLevel2Divisor>10.0</sreLevel2Divisor>

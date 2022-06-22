@@ -50,23 +50,23 @@
           },
           "DstPort": {
               "PortId": 0,
-              "NodeInstance": "SkinBeautyInstance0"
+              "NodeInstance": "MiBokehInstance0"
           }
       },
       {
           "SrcPort": {
               "PortId": 0,
-              "NodeInstance": "SkinBeautyInstance0"
+              "NodeInstance": "MiBokehInstance0"
           },
           "DstPort": {
               "PortId": 0,
-              "NodeInstance": "MiBokehInstance0"
+              "NodeInstance": "SkinBeautyInstance0"
           }
       },
       {
           "SrcPort": {
               "PortId": 0,
-              "NodeInstance": "MiBokehInstance0"
+              "NodeInstance": "SkinBeautyInstance0"
           },
           "DstPort": {
               "PortId": 0,

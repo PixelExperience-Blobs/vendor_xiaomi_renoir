@@ -2,7 +2,8 @@ multiCameraLogicalXMLFile=renoir.xml
 multiCameraHWSyncMask=0x0
 
 #close camera log
-logInfoMask=0x0
+logInfoMask=0
+logVerboseMask=0
 overrideLogLevels=0x1
 logWarningMask=0
 logConfigMask=0
